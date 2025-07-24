@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: Platinum_hounds_bot
+    env: python
+    buildCommand: ""
+    startCommand: poetry run python platinum_hounds_bot/bot.py
+    pythonVersion: 3.11
+    plan: free
+    branch: main
+    autoDeploy: true
