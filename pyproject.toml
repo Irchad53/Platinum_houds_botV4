@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "platinum-hounds-bot"
+version = "0.1.0"
+description = "Bot Telegram pour la prédiction de courses Platinum Hounds"
+authors = ["Ton Nom <tonmail@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^13.15"
+schedule = "^1.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
